@@ -1,0 +1,1758 @@
+{
+  "expr": "FL=1",
+  "entities": [
+    {
+      "logprob": -5.045,
+      "prob": 0.0064414603638506,
+      "Id": 126322002,
+      "FN": "internal medicine"
+    },
+    {
+      "logprob": -5.36,
+      "prob": 0.0047009061075833,
+      "Id": 55493867,
+      "FN": "biochemistry"
+    },
+    {
+      "logprob": -5.399,
+      "prob": 0.0045210997825987,
+      "Id": 159985019,
+      "FN": "composite material"
+    },
+    {
+      "logprob": -5.445,
+      "prob": 0.0043178400076331,
+      "Id": 141071460,
+      "FN": "surgery"
+    },
+    {
+      "logprob": -5.603,
+      "prob": 0.0036867867490923,
+      "Id": 134018914,
+      "FN": "endocrinology"
+    },
+    {
+      "logprob": -5.627,
+      "prob": 0.0035993572180636,
+      "Id": 154945302,
+      "FN": "artificial intelligence"
+    },
+    {
+      "logprob": -5.653,
+      "prob": 0.0035069800375959,
+      "Id": 15708023,
+      "FN": "humanities"
+    },
+    {
+      "logprob": -5.724,
+      "prob": 0.0032666182614728,
+      "Id": 78519656,
+      "FN": "mechanical engineering"
+    },
+    {
+      "logprob": -5.737,
+      "prob": 0.0032244270610673,
+      "Id": 120665830,
+      "FN": "optics"
+    },
+    {
+      "logprob": -5.742,
+      "prob": 0.0032083451640086,
+      "Id": 153911025,
+      "FN": "molecular biology"
+    },
+    {
+      "logprob": -5.785,
+      "prob": 0.0030733103758703,
+      "Id": 178790620,
+      "FN": "organic chemistry"
+    },
+    {
+      "logprob": -5.847,
+      "prob": 0.002888551828078,
+      "Id": 203014093,
+      "FN": "immunology"
+    },
+    {
+      "logprob": -5.886,
+      "prob": 0.00277806676906,
+      "Id": 179104552,
+      "FN": "inorganic chemistry"
+    },
+    {
+      "logprob": -5.897,
+      "prob": 0.0027476754930631,
+      "Id": 142724271,
+      "FN": "pathology"
+    },
+    {
+      "logprob": -5.961,
+      "prob": 0.0025773333495813,
+      "Id": 119599485,
+      "FN": "electrical engineering"
+    },
+    {
+      "logprob": -5.971,
+      "prob": 0.0025516884542691,
+      "Id": 49040817,
+      "FN": "optoelectronics"
+    },
+    {
+      "logprob": -5.985,
+      "prob": 0.0025162137184787,
+      "Id": 24326235,
+      "FN": "electronic engineering"
+    },
+    {
+      "logprob": -6.022,
+      "prob": 0.0024248151119358,
+      "Id": 66938386,
+      "FN": "structural engineering"
+    },
+    {
+      "logprob": -6.112,
+      "prob": 0.0022161141493151,
+      "Id": 115704247,
+      "FN": "analytical chemistry"
+    },
+    {
+      "logprob": -6.153,
+      "prob": 0.0021270909158021,
+      "Id": 54355233,
+      "FN": "genetics"
+    },
+    {
+      "logprob": -6.19,
+      "prob": 0.0020498267532762,
+      "Id": 77805123,
+      "FN": "social psychology"
+    },
+    {
+      "logprob": -6.269,
+      "prob": 0.0018941217582229,
+      "Id": 18903297,
+      "FN": "ecology"
+    },
+    {
+      "logprob": -6.338,
+      "prob": 0.0017678343722661,
+      "Id": 59822182,
+      "FN": "botany"
+    },
+    {
+      "logprob": -6.352,
+      "prob": 0.001743257133155,
+      "Id": 105702510,
+      "FN": "anatomy"
+    },
+    {
+      "logprob": -6.355,
+      "prob": 0.0017380351985739,
+      "Id": 31972630,
+      "FN": "computer vision"
+    },
+    {
+      "logprob": -6.369,
+      "prob": 0.0017138722411561,
+      "Id": 43617362,
+      "FN": "chromatography"
+    },
+    {
+      "logprob": -6.472,
+      "prob": 0.0015461303778482,
+      "Id": 26873012,
+      "FN": "condensed matter physics"
+    },
+    {
+      "logprob": -6.475,
+      "prob": 0.0015414989373489,
+      "Id": 65244806,
+      "FN": "control theory"
+    },
+    {
+      "logprob": -6.483,
+      "prob": 0.0015292161425376,
+      "Id": 164705383,
+      "FN": "cardiology"
+    },
+    {
+      "logprob": -6.489,
+      "prob": 0.0015200683166036,
+      "Id": 191897082,
+      "FN": "metallurgy"
+    },
+    {
+      "logprob": -6.503,
+      "prob": 0.0014989356341146,
+      "Id": 134306372,
+      "FN": "mathematical analysis"
+    },
+    {
+      "logprob": -6.513,
+      "prob": 0.0014840209753559,
+      "Id": 31258907,
+      "FN": "computer network"
+    },
+    {
+      "logprob": -6.53,
+      "prob": 0.0014590058497869,
+      "Id": 42219234,
+      "FN": "anesthesia"
+    },
+    {
+      "logprob": -6.53,
+      "prob": 0.0014590058497869,
+      "Id": 1862650,
+      "FN": "physical therapy"
+    },
+    {
+      "logprob": -6.542,
+      "prob": 0.0014416024090745,
+      "Id": 95444343,
+      "FN": "cell biology"
+    },
+    {
+      "logprob": -6.623,
+      "prob": 0.0013294366472198,
+      "Id": 159047783,
+      "FN": "virology"
+    },
+    {
+      "logprob": -6.651,
+      "prob": 0.0012927287301558,
+      "Id": 126255220,
+      "FN": "mathematical optimization"
+    },
+    {
+      "logprob": -6.665,
+      "prob": 0.0012747566262047,
+      "Id": 24890656,
+      "FN": "acoustics"
+    },
+    {
+      "logprob": -6.667,
+      "prob": 0.0012722096607667,
+      "Id": 42360764,
+      "FN": "chemical engineering"
+    },
+    {
+      "logprob": -6.671,
+      "prob": 0.0012671309862443,
+      "Id": 184779094,
+      "FN": "atomic physics"
+    },
+    {
+      "logprob": -6.687,
+      "prob": 0.0012470182216516,
+      "Id": 138496976,
+      "FN": "developmental psychology"
+    },
+    {
+      "logprob": -6.763,
+      "prob": 0.0011557566977015,
+      "Id": 118552586,
+      "FN": "psychiatry"
+    },
+    {
+      "logprob": -6.765,
+      "prob": 0.0011534474942793,
+      "Id": 548081761,
+      "FN": "waste management"
+    },
+    {
+      "logprob": -6.792,
+      "prob": 0.0011227210850648,
+      "Id": 171250308,
+      "FN": "nanotechnology"
+    },
+    {
+      "logprob": -6.805,
+      "prob": 0.0011082201711203,
+      "Id": 9390403,
+      "FN": "computer hardware"
+    },
+    {
+      "logprob": -6.818,
+      "prob": 0.0010939065490223,
+      "Id": 19417346,
+      "FN": "pedagogy"
+    },
+    {
+      "logprob": -6.845,
+      "prob": 0.0010647662366679,
+      "Id": 57879066,
+      "FN": "mechanics"
+    },
+    {
+      "logprob": -6.852,
+      "prob": 0.0010573388990213,
+      "Id": 89423630,
+      "FN": "microbiology"
+    },
+    {
+      "logprob": -6.867,
+      "prob": 0.0010415971736326,
+      "Id": 11413529,
+      "FN": "algorithm"
+    },
+    {
+      "logprob": -6.898,
+      "prob": 0.0010098030168219,
+      "Id": 169760540,
+      "FN": "neuroscience"
+    },
+    {
+      "logprob": -6.933,
+      "prob": 0.0009750712623964,
+      "Id": 177713679,
+      "FN": "intensive care medicine"
+    },
+    {
+      "logprob": -6.938,
+      "prob": 0.0009702080741866,
+      "Id": 105795698,
+      "FN": "statistics"
+    },
+    {
+      "logprob": -6.968,
+      "prob": 0.0009415340922071,
+      "Id": 52119013,
+      "FN": "art history"
+    },
+    {
+      "logprob": -6.98,
+      "prob": 0.0009303032032049,
+      "Id": 133731056,
+      "FN": "control engineering"
+    },
+    {
+      "logprob": -6.993,
+      "prob": 0.0009182875326422,
+      "Id": 171146098,
+      "FN": "automotive engineering"
+    },
+    {
+      "logprob": -6.997,
+      "prob": 0.0009146217190266,
+      "Id": 178980831,
+      "FN": "pattern recognition"
+    },
+    {
+      "logprob": -6.998,
+      "prob": 0.000913707554466,
+      "Id": 36289849,
+      "FN": "social science"
+    },
+    {
+      "logprob": -7.007,
+      "prob": 0.0009055210808656,
+      "Id": 126838900,
+      "FN": "radiology"
+    },
+    {
+      "logprob": -7.017,
+      "prob": 0.0008965109955674,
+      "Id": 119857082,
+      "FN": "machine learning"
+    },
+    {
+      "logprob": -7.026,
+      "prob": 0.0008884785966212,
+      "Id": 199539241,
+      "FN": "law"
+    },
+    {
+      "logprob": -7.03,
+      "prob": 0.0008849317805958,
+      "Id": 74650414,
+      "FN": "classical mechanics"
+    },
+    {
+      "logprob": -7.05,
+      "prob": 0.000867408957307,
+      "Id": 75473681,
+      "FN": "photochemistry"
+    },
+    {
+      "logprob": -7.073,
+      "prob": 0.000847686232065,
+      "Id": 118615104,
+      "FN": "discrete mathematics"
+    },
+    {
+      "logprob": -7.076,
+      "prob": 0.0008451469841451,
+      "Id": 70410870,
+      "FN": "clinical psychology"
+    },
+    {
+      "logprob": -7.083,
+      "prob": 0.0008392516131274,
+      "Id": 79403827,
+      "FN": "real time computing"
+    },
+    {
+      "logprob": -7.089,
+      "prob": 0.0008342311798099,
+      "Id": 199639397,
+      "FN": "engineering drawing"
+    },
+    {
+      "logprob": -7.113,
+      "prob": 0.0008144479794829,
+      "Id": 98274493,
+      "FN": "pharmacology"
+    },
+    {
+      "logprob": -7.113,
+      "prob": 0.0008144479794829,
+      "Id": 39549134,
+      "FN": "public relations"
+    },
+    {
+      "logprob": -7.119,
+      "prob": 0.0008095759223934,
+      "Id": 512399662,
+      "FN": "family medicine"
+    },
+    {
+      "logprob": -7.126,
+      "prob": 0.0008039286793469,
+      "Id": 8010536,
+      "FN": "crystallography"
+    },
+    {
+      "logprob": -7.135,
+      "prob": 0.0007967257828863,
+      "Id": 188027245,
+      "FN": "polymer chemistry"
+    },
+    {
+      "logprob": -7.14,
+      "prob": 0.0007927520964665,
+      "Id": 149782125,
+      "FN": "econometrics"
+    },
+    {
+      "logprob": -7.14,
+      "prob": 0.0007927520964665,
+      "Id": 71240020,
+      "FN": "stereochemistry"
+    },
+    {
+      "logprob": -7.182,
+      "prob": 0.0007601460287872,
+      "Id": 6557445,
+      "FN": "agronomy"
+    },
+    {
+      "logprob": -7.193,
+      "prob": 0.0007518302431422,
+      "Id": 159110408,
+      "FN": "nursing"
+    },
+    {
+      "logprob": -7.204,
+      "prob": 0.000743605429874,
+      "Id": 124101348,
+      "FN": "data mining"
+    },
+    {
+      "logprob": -7.208,
+      "prob": 0.0007406369490741,
+      "Id": 29456083,
+      "FN": "gynecology"
+    },
+    {
+      "logprob": -7.256,
+      "prob": 0.0007059261001205,
+      "Id": 187212893,
+      "FN": "pediatrics"
+    },
+    {
+      "logprob": -7.257,
+      "prob": 0.0007052205268658,
+      "Id": 120314980,
+      "FN": "distributed computing"
+    },
+    {
+      "logprob": -7.258,
+      "prob": 0.0007045156588317,
+      "Id": 162853370,
+      "FN": "marketing"
+    },
+    {
+      "logprob": -7.285,
+      "prob": 0.0006857482363538,
+      "Id": 31903555,
+      "FN": "food science"
+    },
+    {
+      "logprob": -7.315,
+      "prob": 0.0006654813131083,
+      "Id": 62520636,
+      "FN": "quantum mechanics"
+    },
+    {
+      "logprob": -7.317,
+      "prob": 0.0006641516805578,
+      "Id": 502942594,
+      "FN": "cancer research"
+    },
+    {
+      "logprob": -7.322,
+      "prob": 0.0006608392102318,
+      "Id": 124952713,
+      "FN": "literature"
+    },
+    {
+      "logprob": -7.324,
+      "prob": 0.0006595188526091,
+      "Id": 97355855,
+      "FN": "thermodynamics"
+    },
+    {
+      "logprob": -7.336,
+      "prob": 0.0006516519223622,
+      "Id": 180747234,
+      "FN": "cognitive psychology"
+    },
+    {
+      "logprob": -7.337,
+      "prob": 0.0006510005961572,
+      "Id": 145420912,
+      "FN": "mathematics education"
+    },
+    {
+      "logprob": -7.34,
+      "prob": 0.0006490505209441,
+      "Id": 136764020,
+      "FN": "world wide web"
+    },
+    {
+      "logprob": -7.345,
+      "prob": 0.0006458133679659,
+      "Id": 46141821,
+      "FN": "nuclear magnetic resonance"
+    },
+    {
+      "logprob": -7.347,
+      "prob": 0.0006445230319961,
+      "Id": 114614502,
+      "FN": "combinatorics"
+    },
+    {
+      "logprob": -7.35,
+      "prob": 0.0006425923603556,
+      "Id": 44154836,
+      "FN": "simulation"
+    },
+    {
+      "logprob": -7.395,
+      "prob": 0.0006143166783451,
+      "Id": 90924648,
+      "FN": "gastroenterology"
+    },
+    {
+      "logprob": -7.396,
+      "prob": 0.0006137026687227,
+      "Id": 44870925,
+      "FN": "astrophysics"
+    },
+    {
+      "logprob": -7.415,
+      "prob": 0.0006021523931041,
+      "Id": 61434518,
+      "FN": "general surgery"
+    },
+    {
+      "logprob": -7.417,
+      "prob": 0.0006009492918202,
+      "Id": 80444323,
+      "FN": "theoretical computer science"
+    },
+    {
+      "logprob": -7.42,
+      "prob": 0.0005991491455143,
+      "Id": 1276947,
+      "FN": "astronomy"
+    },
+    {
+      "logprob": -7.468,
+      "prob": 0.0005710692940883,
+      "Id": 111472728,
+      "FN": "epistemology"
+    },
+    {
+      "logprob": -7.47,
+      "prob": 0.0005699282968777,
+      "Id": 49774154,
+      "FN": "multimedia"
+    },
+    {
+      "logprob": -7.47,
+      "prob": 0.0005699282968777,
+      "Id": 41895202,
+      "FN": "linguistics"
+    },
+    {
+      "logprob": -7.476,
+      "prob": 0.0005665189653191,
+      "Id": 56739046,
+      "FN": "knowledge management"
+    },
+    {
+      "logprob": -7.476,
+      "prob": 0.0005665189653191,
+      "Id": 3116431,
+      "FN": "public administration"
+    },
+    {
+      "logprob": -7.486,
+      "prob": 0.0005608820074299,
+      "Id": 161191863,
+      "FN": "library science"
+    },
+    {
+      "logprob": -7.489,
+      "prob": 0.0005592018828546,
+      "Id": 199289684,
+      "FN": "mineralogy"
+    },
+    {
+      "logprob": -7.498,
+      "prob": 0.0005541916457947,
+      "Id": 126794175,
+      "FN": "topology"
+    },
+    {
+      "logprob": -7.517,
+      "prob": 0.0005437614055811,
+      "Id": 121684516,
+      "FN": "computer graphics images"
+    },
+    {
+      "logprob": -7.523,
+      "prob": 0.0005405086053069,
+      "Id": 175444787,
+      "FN": "microeconomics"
+    },
+    {
+      "logprob": -7.542,
+      "prob": 0.0005303358886417,
+      "Id": 38652104,
+      "FN": "computer security"
+    },
+    {
+      "logprob": -7.565,
+      "prob": 0.0005182773677681,
+      "Id": 187320778,
+      "FN": "geotechnical engineering"
+    },
+    {
+      "logprob": -7.595,
+      "prob": 0.0005029599566898,
+      "Id": 107872376,
+      "FN": "environmental chemistry"
+    },
+    {
+      "logprob": -7.595,
+      "prob": 0.0005029599566898,
+      "Id": 87717796,
+      "FN": "environmental engineering"
+    },
+    {
+      "logprob": -7.602,
+      "prob": 0.0004994515308097,
+      "Id": 37037264,
+      "FN": "hydrology"
+    },
+    {
+      "logprob": -7.613,
+      "prob": 0.0004939876702974,
+      "Id": 107993555,
+      "FN": "gender studies"
+    },
+    {
+      "logprob": -7.631,
+      "prob": 0.0004851754402316,
+      "Id": 74909509,
+      "FN": "gerontology"
+    },
+    {
+      "logprob": -7.646,
+      "prob": 0.0004779521189743,
+      "Id": 138921699,
+      "FN": "political economy"
+    },
+    {
+      "logprob": -7.694,
+      "prob": 0.0004555523131997,
+      "Id": 77088390,
+      "FN": "database"
+    },
+    {
+      "logprob": -7.694,
+      "prob": 0.0004555523131997,
+      "Id": 58640448,
+      "FN": "cartography"
+    },
+    {
+      "logprob": -7.709,
+      "prob": 0.0004487700228468,
+      "Id": 10138342,
+      "FN": "finance"
+    },
+    {
+      "logprob": -7.71,
+      "prob": 0.0004483214771342,
+      "Id": 2524010,
+      "FN": "geometry"
+    },
+    {
+      "logprob": -7.723,
+      "prob": 0.000442531017468,
+      "Id": 99454951,
+      "FN": "environmental health"
+    },
+    {
+      "logprob": -7.737,
+      "prob": 0.0004363787495853,
+      "Id": 509550671,
+      "FN": "medical education"
+    },
+    {
+      "logprob": -7.74,
+      "prob": 0.0004350715750787,
+      "Id": 60644358,
+      "FN": "bioinformatics"
+    },
+    {
+      "logprob": -7.741,
+      "prob": 0.0004346367209669,
+      "Id": 50522688,
+      "FN": "economic growth"
+    },
+    {
+      "logprob": -7.746,
+      "prob": 0.0004324689612775,
+      "Id": 27206212,
+      "FN": "theology"
+    },
+    {
+      "logprob": -7.748,
+      "prob": 0.0004316048877165,
+      "Id": 107826830,
+      "FN": "environmental resource management"
+    },
+    {
+      "logprob": -7.751,
+      "prob": 0.0004303120133346,
+      "Id": 149923435,
+      "FN": "demography"
+    },
+    {
+      "logprob": -7.751,
+      "prob": 0.0004303120133346,
+      "Id": 136229726,
+      "FN": "biomedical engineering"
+    },
+    {
+      "logprob": -7.754,
+      "prob": 0.0004290230117637,
+      "Id": 144027150,
+      "FN": "horticulture"
+    },
+    {
+      "logprob": -7.765,
+      "prob": 0.0004243296196161,
+      "Id": 153294291,
+      "FN": "meteorology"
+    },
+    {
+      "logprob": -7.772,
+      "prob": 0.0004213696841393,
+      "Id": 3079626,
+      "FN": "quantum electrodynamics"
+    },
+    {
+      "logprob": -7.781,
+      "prob": 0.0004175943713728,
+      "Id": 147597530,
+      "FN": "computational chemistry"
+    },
+    {
+      "logprob": -7.8,
+      "prob": 0.0004097349789798,
+      "Id": 166957645,
+      "FN": "archaeology"
+    },
+    {
+      "logprob": -7.807,
+      "prob": 0.0004068768492517,
+      "Id": 13965031,
+      "FN": "nuclear chemistry"
+    },
+    {
+      "logprob": -7.808,
+      "prob": 0.000406470175773,
+      "Id": 112698675,
+      "FN": "advertising"
+    },
+    {
+      "logprob": -7.808,
+      "prob": 0.000406470175773,
+      "Id": 23123220,
+      "FN": "information retrieval"
+    },
+    {
+      "logprob": -7.812,
+      "prob": 0.0004048475425,
+      "Id": 91586092,
+      "FN": "atmospheric sciences"
+    },
+    {
+      "logprob": -7.815,
+      "prob": 0.000403634819866,
+      "Id": 49204034,
+      "FN": "climatology"
+    },
+    {
+      "logprob": -7.816,
+      "prob": 0.0004032313867963,
+      "Id": 199343813,
+      "FN": "dentistry"
+    },
+    {
+      "logprob": -7.828,
+      "prob": 0.0003984215270315,
+      "Id": 21547014,
+      "FN": "operations management"
+    },
+    {
+      "logprob": -7.836,
+      "prob": 0.0003952468703734,
+      "Id": 111368507,
+      "FN": "oceanography"
+    },
+    {
+      "logprob": -7.844,
+      "prob": 0.0003920975096498,
+      "Id": 195244886,
+      "FN": "ancient history"
+    },
+    {
+      "logprob": -7.851,
+      "prob": 0.0003893624110955,
+      "Id": 17409809,
+      "FN": "geochemistry"
+    },
+    {
+      "logprob": -7.852,
+      "prob": 0.0003889732433008,
+      "Id": 16005928,
+      "FN": "dermatology"
+    },
+    {
+      "logprob": -7.86,
+      "prob": 0.0003858738713721,
+      "Id": 29595303,
+      "FN": "media studies"
+    },
+    {
+      "logprob": -7.86,
+      "prob": 0.0003858738713721,
+      "Id": 28490314,
+      "FN": "speech recognition"
+    },
+    {
+      "logprob": -7.864,
+      "prob": 0.0003843334587657,
+      "Id": 131872663,
+      "FN": "obstetrics"
+    },
+    {
+      "logprob": -7.865,
+      "prob": 0.0003839493174096,
+      "Id": 62649853,
+      "FN": "remote sensing"
+    },
+    {
+      "logprob": -7.866,
+      "prob": 0.0003835655600029,
+      "Id": 90856448,
+      "FN": "zoology"
+    },
+    {
+      "logprob": -7.88,
+      "prob": 0.0003782330567826,
+      "Id": 76155785,
+      "FN": "telecommunications"
+    },
+    {
+      "logprob": -7.888,
+      "prob": 0.0003752192635747,
+      "Id": 114793014,
+      "FN": "geomorphology"
+    },
+    {
+      "logprob": -7.89,
+      "prob": 0.0003744695749861,
+      "Id": 125565743,
+      "FN": "algebra"
+    },
+    {
+      "logprob": -7.897,
+      "prob": 0.000371857441096,
+      "Id": 149635348,
+      "FN": "embedded system"
+    },
+    {
+      "logprob": -7.902,
+      "prob": 0.0003700027943712,
+      "Id": 136264566,
+      "FN": "economy"
+    },
+    {
+      "logprob": -7.902,
+      "prob": 0.0003700027943712,
+      "Id": 47768531,
+      "FN": "development economics"
+    },
+    {
+      "logprob": -7.945,
+      "prob": 0.0003544298910848,
+      "Id": 143998085,
+      "FN": "oncology"
+    },
+    {
+      "logprob": -7.952,
+      "prob": 0.0003519575451533,
+      "Id": 107457646,
+      "FN": "human computer interaction"
+    },
+    {
+      "logprob": -7.956,
+      "prob": 0.0003505525268826,
+      "Id": 202444582,
+      "FN": "pure mathematics"
+    },
+    {
+      "logprob": -7.957,
+      "prob": 0.0003502021495736,
+      "Id": 74916050,
+      "FN": "classics"
+    },
+    {
+      "logprob": -7.96,
+      "prob": 0.0003491531174598,
+      "Id": 19165224,
+      "FN": "anthropology"
+    },
+    {
+      "logprob": -7.961,
+      "prob": 0.0003488041388607,
+      "Id": 187736073,
+      "FN": "management"
+    },
+    {
+      "logprob": -7.961,
+      "prob": 0.0003488041388607,
+      "Id": 8058405,
+      "FN": "geophysics"
+    },
+    {
+      "logprob": -7.973,
+      "prob": 0.0003446435029375,
+      "Id": 109214941,
+      "FN": "particle physics"
+    },
+    {
+      "logprob": -7.985,
+      "prob": 0.0003405324962742,
+      "Id": 505870484,
+      "FN": "fishery"
+    },
+    {
+      "logprob": -8.016,
+      "prob": 0.0003301379369764,
+      "Id": 12554922,
+      "FN": "biophysics"
+    },
+    {
+      "logprob": -8.028,
+      "prob": 0.000326199956869,
+      "Id": 185544564,
+      "FN": "nuclear physics"
+    },
+    {
+      "logprob": -8.041,
+      "prob": 0.0003219868022697,
+      "Id": 28826006,
+      "FN": "applied mathematics"
+    },
+    {
+      "logprob": -8.042,
+      "prob": 0.0003216649764072,
+      "Id": 204321447,
+      "FN": "natural language processing"
+    },
+    {
+      "logprob": -8.043,
+      "prob": 0.0003213434722096,
+      "Id": 78762247,
+      "FN": "petroleum engineering"
+    },
+    {
+      "logprob": -8.061,
+      "prob": 0.000315611036407,
+      "Id": 199360897,
+      "FN": "programming language"
+    },
+    {
+      "logprob": -8.074,
+      "prob": 0.0003115346468747,
+      "Id": 556039675,
+      "FN": "traditional medicine"
+    },
+    {
+      "logprob": -8.082,
+      "prob": 0.0003090523122772,
+      "Id": 199104240,
+      "FN": "marine engineering"
+    },
+    {
+      "logprob": -8.083,
+      "prob": 0.0003087434144396,
+      "Id": 2549261,
+      "FN": "ethnology"
+    },
+    {
+      "logprob": -8.101,
+      "prob": 0.0003032357506598,
+      "Id": 153349607,
+      "FN": "visual arts"
+    },
+    {
+      "logprob": -8.11,
+      "prob": 0.0003005188731913,
+      "Id": 2989005,
+      "FN": "nuclear medicine"
+    },
+    {
+      "logprob": -8.113,
+      "prob": 0.0002996186675554,
+      "Id": 542102704,
+      "FN": "psychotherapist"
+    },
+    {
+      "logprob": -8.114,
+      "prob": 0.0002993191986472,
+      "Id": 151730666,
+      "FN": "paleontology"
+    },
+    {
+      "logprob": -8.124,
+      "prob": 0.0002963409228586,
+      "Id": 539667460,
+      "FN": "management science"
+    },
+    {
+      "logprob": -8.125,
+      "prob": 0.0002960447300569,
+      "Id": 111919701,
+      "FN": "operating system"
+    },
+    {
+      "logprob": -8.138,
+      "prob": 0.0002922210562955,
+      "Id": 121864883,
+      "FN": "statistical physics"
+    },
+    {
+      "logprob": -8.139,
+      "prob": 0.000291928981301,
+      "Id": 173608175,
+      "FN": "parallel computing"
+    },
+    {
+      "logprob": -8.149,
+      "prob": 0.0002890242394036,
+      "Id": 145236788,
+      "FN": "labour economics"
+    },
+    {
+      "logprob": -8.153,
+      "prob": 0.0002878704515601,
+      "Id": 24667770,
+      "FN": "religious studies"
+    },
+    {
+      "logprob": -8.167,
+      "prob": 0.0002838683453493,
+      "Id": 42475967,
+      "FN": "operations research"
+    },
+    {
+      "logprob": -8.17,
+      "prob": 0.0002830180164443,
+      "Id": 54286561,
+      "FN": "agroforestry"
+    },
+    {
+      "logprob": -8.173,
+      "prob": 0.0002821702347034,
+      "Id": 545542383,
+      "FN": "medical emergency"
+    },
+    {
+      "logprob": -8.181,
+      "prob": 0.0002799218782429,
+      "Id": 46312422,
+      "FN": "communication"
+    },
+    {
+      "logprob": -8.212,
+      "prob": 0.000271377423326,
+      "Id": 155647269,
+      "FN": "medicinal chemistry"
+    },
+    {
+      "logprob": -8.218,
+      "prob": 0.0002697540338247,
+      "Id": 201995342,
+      "FN": "systems engineering"
+    },
+    {
+      "logprob": -8.225,
+      "prob": 0.0002678723491678,
+      "Id": 99508421,
+      "FN": "physical medicine and rehabilitation"
+    },
+    {
+      "logprob": -8.268,
+      "prob": 0.0002565979743518,
+      "Id": 75630572,
+      "FN": "applied psychology"
+    },
+    {
+      "logprob": -8.27,
+      "prob": 0.0002560852912571,
+      "Id": 106159729,
+      "FN": "financial economics"
+    },
+    {
+      "logprob": -8.287,
+      "prob": 0.0002517686368273,
+      "Id": 11171543,
+      "FN": "psychoanalysis"
+    },
+    {
+      "logprob": -8.294,
+      "prob": 0.0002500124103335,
+      "Id": 126894567,
+      "FN": "urology"
+    },
+    {
+      "logprob": -8.338,
+      "prob": 0.000239250365486,
+      "Id": 140793950,
+      "FN": "animal science"
+    },
+    {
+      "logprob": -8.348,
+      "prob": 0.0002368697845739,
+      "Id": 77595967,
+      "FN": "forensic engineering"
+    },
+    {
+      "logprob": -8.353,
+      "prob": 0.0002356883915947,
+      "Id": 55587333,
+      "FN": "engineering ethics"
+    },
+    {
+      "logprob": -8.356,
+      "prob": 0.0002349823859579,
+      "Id": 115903868,
+      "FN": "software engineering"
+    },
+    {
+      "logprob": -8.365,
+      "prob": 0.0002328770327846,
+      "Id": 162118730,
+      "FN": "actuarial science"
+    },
+    {
+      "logprob": -8.374,
+      "prob": 0.0002307905427784,
+      "Id": 528095902,
+      "FN": "pulp and paper industry"
+    },
+    {
+      "logprob": -8.391,
+      "prob": 0.0002269002646061,
+      "Id": 97137747,
+      "FN": "forestry"
+    },
+    {
+      "logprob": -8.399,
+      "prob": 0.0002250923039742,
+      "Id": 2522767166,
+      "FN": "data science"
+    },
+    {
+      "logprob": -8.402,
+      "prob": 0.0002244180389655,
+      "Id": 95124753,
+      "FN": "environmental ethics"
+    },
+    {
+      "logprob": -8.421,
+      "prob": 0.0002201943483479,
+      "Id": 21880701,
+      "FN": "process engineering"
+    },
+    {
+      "logprob": -8.433,
+      "prob": 0.0002175678069346,
+      "Id": 110354214,
+      "FN": "engineering management"
+    },
+    {
+      "logprob": -8.436,
+      "prob": 0.0002169160815906,
+      "Id": 188147891,
+      "FN": "cognitive science"
+    },
+    {
+      "logprob": -8.437,
+      "prob": 0.000216699273931,
+      "Id": 29694066,
+      "FN": "orthodontics"
+    },
+    {
+      "logprob": -8.445,
+      "prob": 0.0002149725956615,
+      "Id": 121955636,
+      "FN": "accounting"
+    },
+    {
+      "logprob": -8.451,
+      "prob": 0.0002136866218669,
+      "Id": 70721500,
+      "FN": "computational biology"
+    },
+    {
+      "logprob": -8.456,
+      "prob": 0.0002126208553941,
+      "Id": 194828623,
+      "FN": "emergency medicine"
+    },
+    {
+      "logprob": -8.462,
+      "prob": 0.0002113489497942,
+      "Id": 548259974,
+      "FN": "audiology"
+    },
+    {
+      "logprob": -8.47,
+      "prob": 0.0002096649033631,
+      "Id": 159467904,
+      "FN": "chemical physics"
+    },
+    {
+      "logprob": -8.482,
+      "prob": 0.0002071639601931,
+      "Id": 6303427,
+      "FN": "economic history"
+    },
+    {
+      "logprob": -8.494,
+      "prob": 0.0002046928489912,
+      "Id": 91375879,
+      "FN": "environmental planning"
+    },
+    {
+      "logprob": -8.5,
+      "prob": 0.0002034683690106,
+      "Id": 42972112,
+      "FN": "veterinary medicine"
+    },
+    {
+      "logprob": -8.512,
+      "prob": 0.0002010413398816,
+      "Id": 40700,
+      "FN": "industrial organization"
+    },
+    {
+      "logprob": -8.515,
+      "prob": 0.0002004391196439,
+      "Id": 22212356,
+      "FN": "transport engineering"
+    },
+    {
+      "logprob": -8.52,
+      "prob": 0.0001994394253641,
+      "Id": 165205528,
+      "FN": "seismology"
+    },
+    {
+      "logprob": -8.545,
+      "prob": 0.0001945152484069,
+      "Id": 107038049,
+      "FN": "aesthetics"
+    },
+    {
+      "logprob": -8.551,
+      "prob": 0.0001933516511988,
+      "Id": 73484699,
+      "FN": "criminology"
+    },
+    {
+      "logprob": -8.553,
+      "prob": 0.0001929653343421,
+      "Id": 74363100,
+      "FN": "economic system"
+    },
+    {
+      "logprob": -8.568,
+      "prob": 0.0001900924547899,
+      "Id": 150903083,
+      "FN": "biotechnology"
+    },
+    {
+      "logprob": -8.571,
+      "prob": 0.0001895230319868,
+      "Id": 45355965,
+      "FN": "socioeconomics"
+    },
+    {
+      "logprob": -8.574,
+      "prob": 0.0001889553148922,
+      "Id": 526734887,
+      "FN": "environmental protection"
+    },
+    {
+      "logprob": -8.606,
+      "prob": 0.000183004466192,
+      "Id": 118487528,
+      "FN": "ophthalmology"
+    },
+    {
+      "logprob": -8.624,
+      "prob": 0.0001797398554413,
+      "Id": 42407357,
+      "FN": "physiology"
+    },
+    {
+      "logprob": -8.624,
+      "prob": 0.0001797398554413,
+      "Id": 33577790,
+      "FN": "calculus"
+    },
+    {
+      "logprob": -8.628,
+      "prob": 0.0001790223320231,
+      "Id": 100001284,
+      "FN": "public economics"
+    },
+    {
+      "logprob": -8.632,
+      "prob": 0.000178307672966,
+      "Id": 37914503,
+      "FN": "mathematical physics"
+    },
+    {
+      "logprob": -8.641,
+      "prob": 0.0001767101037543,
+      "Id": 78458016,
+      "FN": "evolutionary biology"
+    },
+    {
+      "logprob": -8.644,
+      "prob": 0.0001761807678439,
+      "Id": 21951064,
+      "FN": "combinatorial chemistry"
+    },
+    {
+      "logprob": -8.654,
+      "prob": 0.0001744277399137,
+      "Id": 116915560,
+      "FN": "nuclear engineering"
+    },
+    {
+      "logprob": -8.694,
+      "prob": 0.0001675883304043,
+      "Id": 144237770,
+      "FN": "mathematical economics"
+    },
+    {
+      "logprob": -8.695,
+      "prob": 0.0001674208258401,
+      "Id": 190253527,
+      "FN": "law and economics"
+    },
+    {
+      "logprob": -8.696,
+      "prob": 0.0001672534886968,
+      "Id": 147176958,
+      "FN": "civil engineering"
+    },
+    {
+      "logprob": -8.697,
+      "prob": 0.0001670863188069,
+      "Id": 147789679,
+      "FN": "physical chemistry"
+    },
+    {
+      "logprob": -8.7,
+      "prob": 0.0001665858109876,
+      "Id": 19527891,
+      "FN": "medical physics"
+    },
+    {
+      "logprob": -8.704,
+      "prob": 0.000165920798655,
+      "Id": 155202549,
+      "FN": "international trade"
+    },
+    {
+      "logprob": -8.749,
+      "prob": 0.0001586198656979,
+      "Id": 200601418,
+      "FN": "reliability engineering"
+    },
+    {
+      "logprob": -8.754,
+      "prob": 0.0001578287458173,
+      "Id": 117671659,
+      "FN": "manufacturing engineering"
+    },
+    {
+      "logprob": -8.758,
+      "prob": 0.0001571986917822,
+      "Id": 33070731,
+      "FN": "toxicology"
+    },
+    {
+      "logprob": -8.797,
+      "prob": 0.0001511859532984,
+      "Id": 108827166,
+      "FN": "internet privacy"
+    },
+    {
+      "logprob": -8.798,
+      "prob": 0.0001510348429129,
+      "Id": 33332235,
+      "FN": "theoretical physics"
+    },
+    {
+      "logprob": -8.817,
+      "prob": 0.0001481922708457,
+      "Id": 146978453,
+      "FN": "aerospace engineering"
+    },
+    {
+      "logprob": -8.859,
+      "prob": 0.0001420970902284,
+      "Id": 177322064,
+      "FN": "radiochemistry"
+    },
+    {
+      "logprob": -8.867,
+      "prob": 0.000140964848512,
+      "Id": 53553401,
+      "FN": "genealogy"
+    },
+    {
+      "logprob": -8.873,
+      "prob": 0.0001401215917211,
+      "Id": 556758197,
+      "FN": "monetary economics"
+    },
+    {
+      "logprob": -8.891,
+      "prob": 0.0001376219671805,
+      "Id": 48824518,
+      "FN": "agricultural economics"
+    },
+    {
+      "logprob": -8.894,
+      "prob": 0.000137209719959,
+      "Id": 41999313,
+      "FN": "molecular physics"
+    },
+    {
+      "logprob": -8.898,
+      "prob": 0.0001366619772948,
+      "Id": 139719470,
+      "FN": "macroeconomics"
+    },
+    {
+      "logprob": -8.941,
+      "prob": 0.0001309100646397,
+      "Id": 159390177,
+      "FN": "soil science"
+    },
+    {
+      "logprob": -8.945,
+      "prob": 0.0001303874702667,
+      "Id": 54750564,
+      "FN": "commerce"
+    },
+    {
+      "logprob": -8.949,
+      "prob": 0.000129866962096,
+      "Id": 94375191,
+      "FN": "arithmetic"
+    },
+    {
+      "logprob": -8.954,
+      "prob": 0.0001292192479204,
+      "Id": 195094911,
+      "FN": "process management"
+    },
+    {
+      "logprob": -9.026,
+      "prob": 0.0001202425025234,
+      "Id": 175605778,
+      "FN": "natural resource economics"
+    },
+    {
+      "logprob": -9.067,
+      "prob": 0.0001154122565798,
+      "Id": 61696701,
+      "FN": "engineering physics"
+    },
+    {
+      "logprob": -9.067,
+      "prob": 0.0001154122565798,
+      "Id": 30475298,
+      "FN": "computational physics"
+    },
+    {
+      "logprob": -9.103,
+      "prob": 0.0001113313130587,
+      "Id": 34447519,
+      "FN": "market economy"
+    },
+    {
+      "logprob": -9.154,
+      "prob": 0.000105795772162,
+      "Id": 18547055,
+      "FN": "international economics"
+    },
+    {
+      "logprob": -9.189,
+      "prob": 0.0001021569706168,
+      "Id": 178550888,
+      "FN": "business administration"
+    },
+    {
+      "logprob": -9.19,
+      "prob": 0.0001020548647076,
+      "Id": 73283319,
+      "FN": "financial system"
+    },
+    {
+      "logprob": -9.236,
+      "prob": 0.0000974666782415,
+      "Id": 107053488,
+      "FN": "construction engineering"
+    },
+    {
+      "logprob": -9.239,
+      "prob": 0.0000971747163685,
+      "Id": 134560507,
+      "FN": "environmental economics"
+    },
+    {
+      "logprob": -9.24,
+      "prob": 0.0000970775902233,
+      "Id": 16685009,
+      "FN": "andrology"
+    },
+    {
+      "logprob": -9.242,
+      "prob": 0.0000968836290687,
+      "Id": 16674752,
+      "FN": "mining engineering"
+    },
+    {
+      "logprob": -9.244,
+      "prob": 0.0000966900554487,
+      "Id": 112930515,
+      "FN": "risk analysis"
+    },
+    {
+      "logprob": -9.265,
+      "prob": 0.0000946807359807,
+      "Id": 170154142,
+      "FN": "architectural engineering"
+    },
+    {
+      "logprob": -9.267,
+      "prob": 0.000094491563744,
+      "Id": 13280743,
+      "FN": "geodesy"
+    },
+    {
+      "logprob": -9.273,
+      "prob": 0.0000939263118131,
+      "Id": 118084267,
+      "FN": "positive economics"
+    },
+    {
+      "logprob": -9.282,
+      "prob": 0.000093084767636,
+      "Id": 178802073,
+      "FN": "aeronautics"
+    },
+    {
+      "logprob": -9.29,
+      "prob": 0.0000923430602801,
+      "Id": 126348684,
+      "FN": "polymer science"
+    },
+    {
+      "logprob": -9.315,
+      "prob": 0.0000900631019982,
+      "Id": 549774020,
+      "FN": "welfare economics"
+    },
+    {
+      "logprob": -9.325,
+      "prob": 0.0000891669591602,
+      "Id": 4249254,
+      "FN": "demographic economics"
+    },
+    {
+      "logprob": -9.338,
+      "prob": 0.0000880152907551,
+      "Id": 105639569,
+      "FN": "economic policy"
+    },
+    {
+      "logprob": -9.469,
+      "prob": 0.0000772085774685,
+      "Id": 5900021,
+      "FN": "petrology"
+    },
+    {
+      "logprob": -9.494,
+      "prob": 0.0000753022908987,
+      "Id": 87355193,
+      "FN": "astrobiology"
+    },
+    {
+      "logprob": -9.504,
+      "prob": 0.0000745530205852,
+      "Id": 37621935,
+      "FN": "agricultural science"
+    },
+    {
+      "logprob": -9.523,
+      "prob": 0.000073149885191,
+      "Id": 100970517,
+      "FN": "physical geography"
+    },
+    {
+      "logprob": -9.555,
+      "prob": 0.0000708461452858,
+      "Id": 119767625,
+      "FN": "optometry"
+    },
+    {
+      "logprob": -9.568,
+      "prob": 0.000069931106039,
+      "Id": 26271046,
+      "FN": "economic geography"
+    },
+    {
+      "logprob": -9.639,
+      "prob": 0.0000651381603497,
+      "Id": 186060115,
+      "FN": "biological system"
+    },
+    {
+      "logprob": -9.645,
+      "prob": 0.000064748501533,
+      "Id": 524765639,
+      "FN": "water resource management"
+    },
+    {
+      "logprob": -9.653,
+      "prob": 0.0000642325799586,
+      "Id": 118524514,
+      "FN": "computer architecture"
+    },
+    {
+      "logprob": -9.688,
+      "prob": 0.0000620233271082,
+      "Id": 459310,
+      "FN": "computational science"
+    },
+    {
+      "logprob": -9.695,
+      "prob": 0.0000615906798505,
+      "Id": 133425853,
+      "FN": "neoclassical economics"
+    },
+    {
+      "logprob": -9.725,
+      "prob": 0.0000597704001691,
+      "Id": 148383697,
+      "FN": "regional science"
+    },
+    {
+      "logprob": -9.777,
+      "prob": 0.0000567417662633,
+      "Id": 88463610,
+      "FN": "agricultural engineering"
+    },
+    {
+      "logprob": -9.927,
+      "prob": 0.0000488380908193,
+      "Id": 13736549,
+      "FN": "industrial engineering"
+    },
+    {
+      "logprob": -9.981,
+      "prob": 0.0000462707752624,
+      "Id": 1965285,
+      "FN": "earth science"
+    },
+    {
+      "logprob": -9.986,
+      "prob": 0.0000460399988081,
+      "Id": 113775141,
+      "FN": "computer engineering"
+    },
+    {
+      "logprob": -10.118,
+      "prob": 0.0000403467383689,
+      "Id": 183696295,
+      "FN": "biochemical engineering"
+    },
+    {
+      "logprob": -10.242,
+      "prob": 0.0000356414953205,
+      "Id": 165556158,
+      "FN": "keynesian economics"
+    },
+    {
+      "logprob": -11.19,
+      "prob": 0.0000138116240209,
+      "Id": 167562979,
+      "FN": "classical economics"
+    },
+    {
+      "logprob": -14.19,
+      "prob": 6.876402694E-7,
+      "Id": 510606860,
+      "FN": "ceramic materials"
+    }
+  ],
+  "timed_out": false
+}
