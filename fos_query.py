@@ -57,9 +57,6 @@ class Paper_Node:
         self.fos_name = name
 
 
-score = dict()
-
-
 class Paper:
     def __init__(self, tree, score, idx, year):
         self.idx = idx
@@ -106,6 +103,7 @@ for paper_id, paper in papers.items():
 child_list = None
 parent_list = None
 
+scores = defaultdict(lambda: 0)
 
 def calc_score(tree: object, node: object) -> object:
     if not node.done:
@@ -123,11 +121,18 @@ def calc_score(tree: object, node: object) -> object:
                     child_ctr += 1
             node.score = 1 / child_ctr
     node.done = 1
+
+    scores[node.fos_name] += node.score
+
     return node.score
 
 
 for paper_id, paper_node in papers_new.items():
     for fos_id, fos_node in paper_node.tree.items():
         papers_new[paper_id].tree[fos_id].score = calc_score(paper_node.tree, fos_node)
+
+scores = sorted(scores, key=scores.get, reverse=True)
+print(scores[:10])
+
 
 print('a')
