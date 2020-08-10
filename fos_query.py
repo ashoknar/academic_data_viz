@@ -15,37 +15,6 @@ class Node:
         self.child = list()
 
 
-out_file = open("fos.pkl", "rb")
-fos_tree = pickle.load(out_file)
-out_file.close()
-
-topic_1 = "computer science"
-topic_2 = "physics"
-URL = "https://api.labs.cognitive.microsoft.com/academic/v1.0/evaluate?expr=And(Composite(F.FN='{}'),Composite(F.FN='{}'))&count=50000&attributes=F.FId,F.FN,Id,Y".format(
-    topic_1, topic_2)
-
-HEADERS = {"Ocp-Apim-Subscription-Key": "c6c5efdaac704c90b6c3f151d1e7dd8a"}
-
-payload = {}
-
-response = requests.request("GET", url=URL, headers=HEADERS, data=payload)
-
-data = response.json()
-
-# print(data['entities'])
-
-papers = defaultdict(lambda: list())
-year_papers = dict()
-# papers_fos_id = defaultdict(lambda: list())
-
-for paper in data['entities']:
-    year_papers[paper['Id']] = paper['Y']
-    fos_ids = paper['F']
-    for idx in fos_ids:
-        papers[paper['Id']].append((fos_tree[idx['FId']], idx['FN']))
-        # papers_fos_id[paper['Id']].append(idx['FId'])
-
-
 class Paper_Node:
     def __init__(self, level, idx, name):
         self.level = level
@@ -65,74 +34,94 @@ class Paper:
         self.year = year
 
 
-def dd():
-    return None
+def query(topic_1, topic_2):
 
+    out_file = open("fos.pkl", "rb")
+    fos_tree = pickle.load(out_file)
+    out_file.close()
 
-papers_new = defaultdict(lambda: None)
+    # topic_1 = "computer science"
+    # topic_2 = "quantum physics"
+    URL = "https://api.labs.cognitive.microsoft.com/academic/v1.0/evaluate?expr=And(Composite(F.FN='{}'),Composite(F.FN='{}'))&count=50000&attributes=F.FId,F.FN,Id,Y".format(
+        topic_1, topic_2)
 
-for paper_id, paper in papers.items():
-    tree_paper = defaultdict(lambda: None)
-    for fos, fos_name in paper:
-        if fos is not None:
-            if tree_paper[fos.id] is None:
-                new_node = Paper_Node(idx=fos.id, level=fos.level, name=fos_name)
-            else:
-                new_node = tree_paper[fos.id]
+    HEADERS = {"Ocp-Apim-Subscription-Key": "c6c5efdaac704c90b6c3f151d1e7dd8a"}
 
-            for fos_inner, _ in paper:
+    PAYLOAD = {}
 
-                for fos_node_id in fos.child:
-                    if fos_inner is not None and fos_inner.id == fos_node_id:
-                        new_node.child[fos_node_id] = fos_inner
+    response = requests.request("GET", url=URL, headers=HEADERS, data=PAYLOAD)
 
-                for fos_node_id in fos.parent:
-                    if fos_inner is not None and fos_inner.id == fos_node_id:
-                        new_node.parent[fos_node_id] = fos_inner
+    data = response.json()
 
-            # new_node.child = set(papers_fos_id[paper_id]) & set(fos.child)
-            # new_node.parent = set(papers_fos_id[paper_id]) & set(fos.parent)
-            new_node.id = fos.id
+    papers = defaultdict(lambda: list())
+    year_papers = dict()
 
-            tree_paper[fos.id] = new_node
+    for paper in data['entities']:
+        year_papers[paper['Id']] = paper['Y']
+        fos_ids = paper['F']
+        for idx in fos_ids:
+            papers[paper['Id']].append((fos_tree[idx['FId']], idx['FN']))
 
-    if fos is not None:
-        paper_new = Paper(tree=tree_paper, score=0, idx=paper_id, year=year_papers[paper_id])
-        papers_new[paper_id] = paper_new
+    papers_new = defaultdict(lambda: None)
 
-child_list = None
-parent_list = None
-
-scores = defaultdict(lambda: 0)
-
-def calc_score(tree: object, node: object) -> object:
-    if not node.done:
-        if len(node.child) != 0:
-            for each in node.child:
-                child_node = tree[each]
-                if child_node.score != 0:
-                    node.score += child_node.score
+    for paper_id, paper in papers.items():
+        tree_paper = defaultdict(lambda: None)
+        for fos, fos_name in paper:
+            if fos is not None:
+                if tree_paper[fos.id] is None:
+                    new_node = Paper_Node(idx=fos.id, level=fos.level, name=fos_name)
                 else:
-                    node.score += calc_score(tree, child_node)
-        else:
-            child_ctr = 0
-            for fos_id, fos_node in tree.items():
-                if len(fos_node.child) == 0:
-                    child_ctr += 1
-            node.score = 1 / child_ctr
-    node.done = 1
+                    new_node = tree_paper[fos.id]
 
-    scores[node.fos_name] += node.score
+                for fos_inner, _ in paper:
 
-    return node.score
+                    for fos_node_id in fos.child:
+                        if fos_inner is not None and fos_inner.id == fos_node_id:
+                            new_node.child[fos_node_id] = fos_inner
 
+                    for fos_node_id in fos.parent:
+                        if fos_inner is not None and fos_inner.id == fos_node_id:
+                            new_node.parent[fos_node_id] = fos_inner
 
-for paper_id, paper_node in papers_new.items():
-    for fos_id, fos_node in paper_node.tree.items():
-        papers_new[paper_id].tree[fos_id].score = calc_score(paper_node.tree, fos_node)
+                new_node.id = fos.id
 
-scores = sorted(scores, key=scores.get, reverse=True)
-print(scores[:10])
+                tree_paper[fos.id] = new_node
 
+        if fos is not None:
+            paper_new = Paper(tree=tree_paper, score=0, idx=paper_id, year=year_papers[paper_id])
+            papers_new[paper_id] = paper_new
+
+    scores = defaultdict(lambda: 0)
+
+    def calc_score(tree: object, node: object) -> object:
+        if not node.done:
+            if len(node.child) != 0:
+                for each in node.child:
+                    child_node = tree[each]
+                    if child_node.score != 0:
+                        node.score += child_node.score
+                    else:
+                        node.score += calc_score(tree, child_node)
+            else:
+                child_ctr = 0
+                for fos_id, fos_node in tree.items():
+                    if len(fos_node.child) == 0:
+                        child_ctr += 1
+                node.score = 1 / child_ctr
+        node.done = 1
+
+        scores[node.fos_name] += node.score
+
+        return node.score
+
+    for paper_id, paper_node in papers_new.items():
+        for fos_id, fos_node in paper_node.tree.items():
+            papers_new[paper_id].tree[fos_id].score = calc_score(paper_node.tree, fos_node)
+
+    scores = sorted(scores, key=scores.get, reverse=True)
+    print(scores[:10])
+    return 'done'
+
+query(topic_1 = "computer science", topic_2 = "quantum physics")
 
 print('a')
