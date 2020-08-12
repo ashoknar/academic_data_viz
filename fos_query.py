@@ -39,12 +39,11 @@ class Paper:
 
 
 def query(topic_1, topic_2):
+
     out_file = open("fos.pkl", "rb")
     fos_tree = pickle.load(out_file)
     out_file.close()
 
-    # topic_1 = "computer science"
-    # topic_2 = "quantum physics"
     URL = "https://api.labs.cognitive.microsoft.com/academic/v1.0/evaluate?expr=And(Composite(F.FN='{}'),Composite(F.FN='{}'))&count=50000&attributes=F.FId,F.FN,Id,Y,AA.AuN".format(
         topic_1, topic_2)
 
@@ -135,8 +134,8 @@ def query(topic_1, topic_2):
             papers_new[paper_id].tree[fos_id].score = calc_score(paper_node.year, paper_node.tree, fos_node,
                                                                  paper_node.author)
 
-    start_year = 2000
-    end_year = 2012
+    start_year = 2017
+    end_year = 2021
 
 
     scores = sorted(scores, key=scores.get, reverse=True)
@@ -162,6 +161,8 @@ def query(topic_1, topic_2):
     plt.stackplot(range(start_year, end_year), score_y, labels=top10_fos)
     plt.legend(loc='upper left')
     plt.show()
+
+    plt.plot(range(start_year, end_year), score_y)
 
     total_author_copy = total_author
     # total_author = sorted(total_author.items(), key=lambda kv:kv[1], reverse=True)
@@ -194,8 +195,6 @@ def query(topic_1, topic_2):
 
     print('a')
 
-topic1 = "machine learning"
-topic2 = "reinforcement learning"
+topic1 = "residual neural network"
+topic2 = "generative adversarial network"
 query(topic_1=topic1, topic_2=topic2)
-
-print('a')
