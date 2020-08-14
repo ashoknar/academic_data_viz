@@ -24,7 +24,7 @@ def create_hierarchy():
     full_list = text_file.read().split('\n')
 
     # l0-l3 contain fos list queried directly from MAG
-    l0_file = open("l0.json", 'r')
+    l0_file = open("fos_list/l0.json", 'r')
     l0_json_full = json.load(l0_file)
     l0_json = l0_json_full['entities']
 
@@ -32,7 +32,7 @@ def create_hierarchy():
     for item in l0_json:
         l0_list.append(int(item['Id']))
 
-    l1_file = open("l1.json", 'r')
+    l1_file = open("fos_list/l1.json", 'r')
     l1_json_full = json.load(l1_file)
     l1_json = l1_json_full['entities']
 
@@ -40,7 +40,7 @@ def create_hierarchy():
     for item in l1_json:
         l1_list.append(int(item['Id']))
 
-    l2_file = open("l2.json", 'r')
+    l2_file = open("fos_list/l2.json", 'r')
     l2_json_full = json.load(l2_file)
     l2_json = l2_json_full['entities']
 
@@ -48,7 +48,7 @@ def create_hierarchy():
     for item in l2_json:
         l2_list.append(int(item['Id']))
 
-    l3_file = open("l3_new.json", 'r')
+    l3_file = open("fos_list/l3.json", 'r')
     l3_json_full = json.load(l3_file)
     l3_json = l3_json_full['entities']
 
