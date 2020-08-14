@@ -1,0 +1,120 @@
+{
+  "expr": "FL=0",
+  "entities": [
+    {
+      "logprob": -4.063,
+      "prob": 0.0171973496010239,
+      "Id": 71924100,
+      "FN": "medicine"
+    },
+    {
+      "logprob": -4.266,
+      "prob": 0.0140378222895052,
+      "Id": 86803240,
+      "FN": "biology"
+    },
+    {
+      "logprob": -4.323,
+      "prob": 0.0132600436814878,
+      "Id": 185592680,
+      "FN": "chemistry"
+    },
+    {
+      "logprob": -4.336,
+      "prob": 0.0130887787476726,
+      "Id": 41008148,
+      "FN": "computer science"
+    },
+    {
+      "logprob": -4.376,
+      "prob": 0.0125755603921652,
+      "Id": 192562407,
+      "FN": "materials science"
+    },
+    {
+      "logprob": -4.711,
+      "prob": 0.0089957773057425,
+      "Id": 127413603,
+      "FN": "engineering"
+    },
+    {
+      "logprob": -4.848,
+      "prob": 0.0078440499715224,
+      "Id": 121332964,
+      "FN": "physics"
+    },
+    {
+      "logprob": -5.119,
+      "prob": 0.0059820019069087,
+      "Id": 33923547,
+      "FN": "mathematics"
+    },
+    {
+      "logprob": -5.169,
+      "prob": 0.0056902562312709,
+      "Id": 15744967,
+      "FN": "psychology"
+    },
+    {
+      "logprob": -5.719,
+      "prob": 0.0032829922536481,
+      "Id": 127313418,
+      "FN": "geology"
+    },
+    {
+      "logprob": -5.798,
+      "prob": 0.0030336159140148,
+      "Id": 162324750,
+      "FN": "economics"
+    },
+    {
+      "logprob": -5.879,
+      "prob": 0.0027975814581704,
+      "Id": 144024400,
+      "FN": "sociology"
+    },
+    {
+      "logprob": -6.059,
+      "prob": 0.0023367364560063,
+      "Id": 17744445,
+      "FN": "political science"
+    },
+    {
+      "logprob": -6.094,
+      "prob": 0.0022563653782862,
+      "Id": 142362112,
+      "FN": "art"
+    },
+    {
+      "logprob": -6.317,
+      "prob": 0.0018053514446009,
+      "Id": 39432304,
+      "FN": "environmental science"
+    },
+    {
+      "logprob": -6.362,
+      "prob": 0.0017259114348622,
+      "Id": 205649164,
+      "FN": "geography"
+    },
+    {
+      "logprob": -6.4,
+      "prob": 0.0016615572731739,
+      "Id": 144133560,
+      "FN": "business"
+    },
+    {
+      "logprob": -6.594,
+      "prob": 0.0013685547814447,
+      "Id": 95457728,
+      "FN": "history"
+    },
+    {
+      "logprob": -6.711,
+      "prob": 0.0012174460696062,
+      "Id": 138885662,
+      "FN": "philosophy"
+    }
+  ],
+  "timed_out": false
+}
