@@ -4,6 +4,7 @@ from tqdm import tqdm
 from collections import defaultdict
 
 
+# Function added to be able to pickle defaultdict
 def dd():
     return None
 
@@ -17,9 +18,12 @@ class Node:
 
 
 def create_hierarchy():
+
+    # FieldOfStudyChildren.txt was obtained from direct copy of MAG on Azure Cloud Storage
     text_file = open("FieldOfStudyChildren.txt", 'r')
     full_list = text_file.read().split('\n')
 
+    # l0-l3 contain fos list queried directly from MAG
     l0_file = open("l0.json", 'r')
     l0_json_full = json.load(l0_file)
     l0_json = l0_json_full['entities']
