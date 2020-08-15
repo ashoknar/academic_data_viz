@@ -7,6 +7,17 @@
 4. Create visualizations from calculated Fos scores for related fields of study and most relavent authors.
 5. Generate more insights from queried data (Planned).
 
+## Sample Visualizations:
+_Top related fields:_
+
+![Top Fields](https://github.com/ashoknar/academic_data_viz/blob/master/images/related_topics.jpg)
+
+
+_Top authors:_
+
+![Top Authors](https://github.com/ashoknar/academic_data_viz/blob/master/images/top_authors.jpg)
+
+
 ## Using the repository:
 1.**fos_hierarchy.py** to generate Field of study Hierarchy in **fos.pkl**
   * Files in _fos_list/_ may need to be updated to match latest format on MAG database.
