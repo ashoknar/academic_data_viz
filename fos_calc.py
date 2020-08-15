@@ -146,7 +146,7 @@ def process_data(topic_1, topic_2, start_y, end_y):
         score_y.append(each)
 
     # Stacked area chart for fos.
-    plot(start_year=start_y, end_year=end_y, y=score_y, label=top10_fos)
+    plot(start_year=start_y, end_year=end_y, y=score_y, label=top10_fos, topic_1=topic_1, topic_2=topic_2)
 
     total_author_copy = total_author
 
@@ -164,12 +164,4 @@ def process_data(topic_1, topic_2, start_y, end_y):
         author_y.append(each)
 
     # Stacked area chart for authors.
-    plot(start_year=start_y, end_year=end_y, y=author_y, label=top10_authors)
-
-# topic1 = "residual neural network"
-# topic2 = "generative adversarial network"
-#
-# start_year = 2010
-# end_year = 2021
-#
-# process_data(topic_1=topic1, topic_2=topic2, start_y=start_year, end_y=end_year)
+    plot(start_year=start_y, end_year=end_y, y=author_y, label=top10_authors, topic_1=topic_1, topic_2=topic_2)

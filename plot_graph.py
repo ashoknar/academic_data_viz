@@ -1,13 +1,7 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
 
-# def plot(start_year, end_year, y, label):
-#     plt.stackplot(range(start_year, end_year), y, labels=label)
-#     plt.legend(loc='upper left')
-#     plt.show()
-
-def plot(start_year, end_year, y, label):
+def plot(start_year, end_year, y, label, topic_1, topic_2):
     # Initialize the figure
     plt.style.use('seaborn-darkgrid')
 
@@ -32,5 +26,13 @@ def plot(start_year, end_year, y, label):
 
         # Subplot titles
         plt.title(title, loc='left', fontsize=8.5, fontweight=0, color=palette(num))
+
+    plt.tight_layout()
+
+    plt.suptitle(topic_1 + " and " + topic_2, fontsize=8, fontweight=0, color='black',
+                 style='italic', y=1.00)
+    # Axis title
+    plt.text(0.5, 0.02, 'Year', ha='center', va='center')
+    plt.text(0.06, 0.5, 'FOS score', ha='center', va='center', rotation='vertical')
 
     plt.show()
