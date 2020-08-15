@@ -116,9 +116,11 @@ def process_data(topic_1, topic_2, start_y, end_y):
         scores_year[year][node.fos_name] += node.score
         for name in author:
             scores_author[name][year] += node.score
-            total_author[name] += node.score
+            if year in range(start_y, end_y):
+                total_author[name] += node.score
 
-        scores[node.fos_name] += node.score
+        if year in range(start_y, end_y):
+            scores[node.fos_name] += node.score
 
         return node.score
 
