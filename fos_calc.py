@@ -130,7 +130,7 @@ def process_data(topic_1, topic_2, start_y, end_y):
     scores = sorted(scores, key=scores.get, reverse=True)
     # top10_fos = scores[:10]
     # Top 2 topics are omitted since they are always the two selected topics
-    top10_fos = scores[2:12]
+    top10_fos = scores[2:11]
 
     score_yrs = defaultdict(lambda: list())
 
@@ -151,7 +151,7 @@ def process_data(topic_1, topic_2, start_y, end_y):
     total_author_copy = total_author
 
     total_author = sorted(total_author_copy, key=total_author_copy.get, reverse=True)
-    top10_authors = total_author[:10]
+    top10_authors = total_author[:9]
 
     author_yrs = defaultdict(lambda: list())
 
@@ -165,3 +165,11 @@ def process_data(topic_1, topic_2, start_y, end_y):
 
     # Stacked area chart for authors.
     plot(start_year=start_y, end_year=end_y, y=author_y, label=top10_authors)
+
+# topic1 = "residual neural network"
+# topic2 = "generative adversarial network"
+#
+# start_year = 2010
+# end_year = 2021
+#
+# process_data(topic_1=topic1, topic_2=topic2, start_y=start_year, end_y=end_year)

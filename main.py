@@ -3,8 +3,8 @@ from fos_calc import process_data
 # Topic names can be chosen from topics at Microsoft Academic
 # https://academic.microsoft.com/topics
 
-topic1 = "residual neural network"
-topic2 = "generative adversarial network"
+topic1 = "quantum physics"
+topic2 = "computer science"
 
 start_year = 2010
 end_year = 2021
