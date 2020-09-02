@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import datetime
 
 def plot(start_year, end_year, y, label, topic_1, topic_2):
     # Initialize the figure
@@ -31,8 +31,10 @@ def plot(start_year, end_year, y, label, topic_1, topic_2):
 
     plt.suptitle(topic_1 + " and " + topic_2, fontsize=8, fontweight=0, color='black',
                  style='italic', y=1.00)
-    # Axis title
-    plt.text(0.5, 0.02, 'Year', ha='center', va='center')
-    plt.text(0.06, 0.5, 'FOS score', ha='center', va='center', rotation='vertical')
+    # # Axis title
+    # plt.text(0.5, 0.02, 'Year', ha='center', va='center')
+    # plt.text(0.06, 0.5, 'FOS score', ha='center', va='center', rotation='vertical')
+
+    plt.savefig('plot' + str(datetime.datetime.now()) + '.png', dpi=100, bbox_inches='tight')
 
     plt.show()
